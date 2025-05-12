@@ -14,7 +14,7 @@
 				"typeProperties": {
 					"variableName": "ENV",
 					"value": {
-						"value": "@pipeline().globalParameters.ENV",
+						"value": "@pipeline().globalParameters.GLOBAL_ENV",
 						"type": "Expression"
 					}
 				}
@@ -31,7 +31,7 @@
 				"typeProperties": {
 					"variableName": "container",
 					"value": {
-						"value": "@pipeline().globalParameters.container",
+						"value": "@pipeline().globalParameters.GLOBAL_container",
 						"type": "Expression"
 					}
 				}
