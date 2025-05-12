@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline1_copy1",
 	"properties": {
 		"activities": [
 			{
@@ -27,7 +27,12 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "ff",
+						"value": "ff"
+					}
+				],
 				"typeProperties": {
 					"variableName": "container",
 					"value": {

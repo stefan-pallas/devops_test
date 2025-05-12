@@ -2,11 +2,11 @@
 	"name": "DEVOPS-DEV",
 	"properties": {
 		"globalParameters": {
-			"ENV": {
+			"GLOBAL_ENV": {
 				"type": "string",
 				"value": "DEV"
 			},
-			"container": {
+			"GLOBAL_container": {
 				"type": "string",
 				"value": "dev"
 			}
