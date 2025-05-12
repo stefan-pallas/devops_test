@@ -94,11 +94,11 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"container": {
-								"value": "@pipeline().globalParameters.container",
+								"value": "@variables('container')",
 								"type": "Expression"
 							},
 							"file": {
-								"value": "@\"output_\"+formatDateTime(utcNow())",
+								"value": "\"output_\"+formatDateTime(utcNow())",
 								"type": "Expression"
 							}
 						}
