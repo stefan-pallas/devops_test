@@ -1,0 +1,10 @@
+{
+	"GLOBAL_ENV": {
+		"type": "string",
+		"value": "DEV"
+	},
+	"GLOBAL_container": {
+		"type": "string",
+		"value": "dev"
+	}
+}
