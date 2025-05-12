@@ -1,0 +1,12 @@
+{
+	"name": "DEVOPS-DEV",
+	"properties": {
+		"globalParameters": {
+			"ENV": {
+				"type": "string",
+				"value": "DEV"
+			}
+		}
+	},
+	"location": "francecentral"
+}
