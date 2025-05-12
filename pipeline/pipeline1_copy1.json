@@ -27,7 +27,12 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "ff",
+						"value": "ff"
+					}
+				],
 				"typeProperties": {
 					"variableName": "container",
 					"value": {
