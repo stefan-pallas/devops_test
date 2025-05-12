@@ -65,7 +65,7 @@
 					"source": {
 						"type": "XmlSource",
 						"storeSettings": {
-							"type": "AzureBlobStorageReadSettings",
+							"type": "AzureBlobFSReadSettings",
 							"recursive": false,
 							"enablePartitionDiscovery": false
 						},
