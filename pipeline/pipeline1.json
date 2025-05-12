@@ -3,6 +3,40 @@
 	"properties": {
 		"activities": [
 			{
+				"name": "Set variable ENV",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "ENV",
+					"value": {
+						"value": "@pipeline().globalParameters.ENV",
+						"type": "Expression"
+					}
+				}
+			},
+			{
+				"name": "Set variable container",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "container",
+					"value": {
+						"value": "@pipeline().globalParameters.container",
+						"type": "Expression"
+					}
+				}
+			},
+			{
 				"name": "Copy data1",
 				"type": "Copy",
 				"dependsOn": [
@@ -50,40 +84,6 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Set variable ENV",
-				"type": "SetVariable",
-				"dependsOn": [],
-				"policy": {
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"variableName": "ENV",
-					"value": {
-						"value": "@pipeline().globalParameters.ENV",
-						"type": "Expression"
-					}
-				}
-			},
-			{
-				"name": "Set variable container",
-				"type": "SetVariable",
-				"dependsOn": [],
-				"policy": {
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"variableName": "container",
-					"value": {
-						"value": "@pipeline().globalParameters.container",
-						"type": "Expression"
-					}
-				}
 			}
 		],
 		"variables": {
