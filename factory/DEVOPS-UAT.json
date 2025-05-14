@@ -1,0 +1,12 @@
+{
+	"name": "DEVOPS-UAT",
+	"properties": {
+		"globalParameters": {
+			"GLOBAL_ENV": {
+				"type": "string",
+				"value": "UAT"
+			}
+		}
+	},
+	"location": "francecentral"
+}
