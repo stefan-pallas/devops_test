@@ -1,0 +1,12 @@
+{
+	"name": "DEVOPS-PRD",
+	"properties": {
+		"globalParameters": {
+			"GLOBAL_ENV": {
+				"type": "string",
+				"value": "PRD"
+			}
+		}
+	},
+	"location": "francecentral"
+}
