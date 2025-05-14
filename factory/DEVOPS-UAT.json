@@ -5,6 +5,10 @@
 			"GLOBAL_ENV": {
 				"type": "string",
 				"value": "UAT"
+			},
+			"GLOBAL_container": {
+				"type": "string",
+				"value": "uat"
 			}
 		}
 	},
