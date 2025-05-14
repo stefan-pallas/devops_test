@@ -1,0 +1,10 @@
+{
+	"GLOBAL_ENV": {
+		"type": "string",
+		"value": "PRD"
+	},
+	"GLOBAL_container": {
+		"type": "string",
+		"value": "prd"
+	}
+}
