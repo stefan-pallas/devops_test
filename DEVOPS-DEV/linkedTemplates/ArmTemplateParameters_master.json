@@ -20,6 +20,12 @@
 		"AzureDataLakeStorage1_properties_typeProperties_servicePrincipalId": {
 			"value": "c7970eb7-2244-47e6-8a43-e7ae88060c97"
 		},
+		"default_properties_GLOBAL_ENV_value": {
+			"value": "DEV"
+		},
+		"default_properties_GLOBAL_container_value": {
+			"value": "dev"
+		},
 		"containerUri": {
 			"value": ""
 		},

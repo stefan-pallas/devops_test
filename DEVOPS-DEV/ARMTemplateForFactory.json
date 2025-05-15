@@ -26,6 +26,14 @@
 		"AzureDataLakeStorage1_properties_typeProperties_servicePrincipalId": {
 			"type": "string",
 			"defaultValue": "c7970eb7-2244-47e6-8a43-e7ae88060c97"
+		},
+		"default_properties_GLOBAL_ENV_value": {
+			"type": "string",
+			"defaultValue": "DEV"
+		},
+		"default_properties_GLOBAL_container_value": {
+			"type": "string",
+			"defaultValue": "dev"
 		}
 	},
 	"variables": {
@@ -696,6 +704,22 @@
 						"type": "SecureString",
 						"value": "[parameters('AzureDataLakeStorage1_servicePrincipalCredential')]"
 					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/default')]",
+			"type": "Microsoft.DataFactory/factories/globalparameters",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"GLOBAL_ENV": {
+					"type": "string",
+					"value": "[parameters('default_properties_GLOBAL_ENV_value')]"
+				},
+				"GLOBAL_container": {
+					"type": "string",
+					"value": "[parameters('default_properties_GLOBAL_container_value')]"
 				}
 			},
 			"dependsOn": []

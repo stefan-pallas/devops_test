@@ -27,6 +27,14 @@
 			"type": "string",
 			"defaultValue": "c7970eb7-2244-47e6-8a43-e7ae88060c97"
 		},
+		"default_properties_GLOBAL_ENV_value": {
+			"type": "string",
+			"defaultValue": "DEV"
+		},
+		"default_properties_GLOBAL_container_value": {
+			"type": "string",
+			"defaultValue": "dev"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -59,6 +67,12 @@
 					},
 					"AzureDataLakeStorage1_servicePrincipalCredential": {
 						"value": "[parameters('AzureDataLakeStorage1_servicePrincipalCredential')]"
+					},
+					"default_properties_GLOBAL_ENV_value": {
+						"value": "[parameters('default_properties_GLOBAL_ENV_value')]"
+					},
+					"default_properties_GLOBAL_container_value": {
+						"value": "[parameters('default_properties_GLOBAL_container_value')]"
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
