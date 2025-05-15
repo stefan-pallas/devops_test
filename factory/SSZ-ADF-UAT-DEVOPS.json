@@ -1,0 +1,12 @@
+{
+	"name": "SSZ-ADF-UAT-DEVOPS",
+	"properties": {
+		"globalParameters": {
+			"GLOBAL_ENV": {
+				"type": "string",
+				"value": "UAT2"
+			}
+		}
+	},
+	"location": "francecentral"
+}
